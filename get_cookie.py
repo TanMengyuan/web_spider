@@ -10,7 +10,7 @@ def get_cookies():
     drive.find_element_by_id("nameNormal").clear()
     drive.find_element_by_id("nameNormal").send_keys("13097215177")
     drive.find_element_by_id("pwdNormal").clear()
-    drive.find_element_by_id("pwdNormal").send_keys("asd19941016")
+    drive.find_element_by_id("pwdNormal").send_keys("")
     #截图登录界面，获取到验证码
     #这一步很重要，需要等待phantomjs 加载完再去取得cookies
     time.sleep(20)

@@ -14,7 +14,7 @@ def get_cookies():
     drive.find_element_by_id("nameNormal").clear()
     drive.find_element_by_id("nameNormal").send_keys("13097215177")
     drive.find_element_by_id("pwdNormal").clear()
-    drive.find_element_by_id("pwdNormal").send_keys("asd19941016")
+    drive.find_element_by_id("pwdNormal").send_keys("")
     time.sleep(15)
     cookie_list = drive.get_cookies()
     cookie_dict = {}
